@@ -164,7 +164,6 @@ nav {
   }
 
   .Graze {
-    float: right;
     display: inline-block;
     margin-right: 25px;
     margin-left: 35px;
@@ -199,7 +198,7 @@ nav {
   100% { opacity: 1; }
   }
   
-  animation: fadeIn 2s ease-in-out;
+  
 
   @media screen and (max-width: 525px) {
   p {
@@ -207,9 +206,8 @@ nav {
      }
   }
 
-  img:hover {
-  animation: rotom 2s linear 0s alternate-reverse;
-  perspective: 360px;
+  #imagem:hover{
+    animation: rotom 2s linear 0s alternate-reverse;
   }
 
   @keyframes rotom {
@@ -219,4 +217,5 @@ nav {
   to {
     transform: scale(1.2);
     }
+
   }
