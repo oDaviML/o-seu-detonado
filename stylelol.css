@@ -1,0 +1,408 @@
+nav {
+    box-sizing: border-box;
+    display: flex;
+    background-image: linear-gradient(to bottom right, #94D0CC, #EEC4C4, #F29191);
+    box-shadow: 0px 17px 50px 18px rgba(0, 0, 0, 0.47);
+    justify-content: center;
+    padding: 0%;
+    margin-bottom: 2%;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    animation: deslizaremb 2s cubic-bezier(0.230, 1.000, 0.320, 1.000);
+    z-index: 9;
+}
+
+@keyframes deslizaremb {
+    0% {
+        transform: translateY(-1000px);
+        filter: blur(40px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Azeret Mono', monospace;
+    border-bottom: 3px solid transparent;
+    font-size: 20px;
+    margin: 0 2em;
+}
+
+.paginas {
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
+}
+
+.paginas:hover {
+    color: #0091e7;
+    border-bottom: 5px solid #1C6EA4;
+    background-color: rgba(0, 0, 255, 0.13);
+}
+
+.paginas:link {
+    color: #f62e52;
+    text-decoration: none;
+}
+
+.paginas:visited {
+    color: #f62e52;
+    text-decoration: none;
+}
+
+#logo {
+    width: 150px;
+    width: 150px;
+}
+
+main {
+    animation: fadeIn 2s ease-in-out;
+    text-align: center;
+    box-shadow: inset 1px 1px 1em rgba(255, 51, 0, 0.445);
+    margin: 70px 100px;
+    background-color: rgba(146, 37, 10, 0.295);
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+
+body {
+  background-image: url(lol-arquivos/fundo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+    margin: 0;
+}
+
+#gif {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 2px inset rgb(3, 63, 243);
+}
+
+#oque-e h1 {
+    text-shadow: 7px 5px 9px rgba(197, 32, 10, 0.842);
+    margin-top: 120px;
+    font-family: 'Bebas Neue', 'cursive';
+    font-style: italic;
+    color: rgb(9, 212, 151);
+    font-size: 100px;
+    text-align: center;
+}
+
+#oque-e p {
+    padding-bottom: 100px;
+    padding-left: 10px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(212, 37, 174);
+    font-size: 36px;
+    text-align: center;
+}
+
+#so-o-basico h1 {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(132, 64, 163);
+}
+
+#so-o-basico h2 {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(132, 64, 163);
+}
+
+#so-o-basico h3 {
+    font-family: 'Work Sans', sans-serif;
+    text-align: left;
+    padding-left: 25px;
+    font-size: 40px;
+    color: rgb(132, 64, 163);
+}
+
+#monstros:hover {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+#so-o-basico a {
+    color: rgb(231, 49, 49);
+}
+
+#so-o-basico img {
+  width: 380px;
+  height: 280px;
+    float: right;
+    border-radius: 150px 50px 150px 50px;
+    border: 2px inset rgb(3, 63, 243);
+}
+
+#so-o-basico img:hover {
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px 150px 50px 150px;
+    border: inset rgb(92, 218, 8) 5px;
+}
+
+#so-o-basico p {
+    font-family: 'Oswald', sans-serif;
+    margin-left: 20px;
+    text-align: left;
+    color: rgb(212, 37, 174);
+    font-size: 25px;
+}
+
+#posicoes h1 {
+    margin-left: 20px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 100px;
+    color: rgb(132, 64, 163);
+}
+
+.h-posicoes {
+    margin-left: 20px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: left;
+    font-size: 40px;
+    padding-top: 100px;
+    color: rgb(132, 64, 163);
+}
+
+.p-posicoes {
+    margin-left: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(212, 37, 174);
+    text-align: center;
+    font-size: 25px;
+}
+
+.p-posicoes a {
+    color: wheat;
+}
+
+.p-posicoes a:hover {
+    color: yellow;
+    font-size: 35px;
+}
+
+#posicoes, {
+    text-align: center;
+}
+
+#posicoes img {
+    border-radius: 120px 40px 120px 40px;
+    border: 2px inset rgb(3, 63, 243);
+}
+
+#posicoes img:hover {
+    border-radius: 40px 120px 40px 120px;
+    border: 5px inset rgb(92, 218, 8);
+}
+
+.saber-mais {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(164, 115, 187);
+    text-align: center;
+    font-size: 18px;
+}
+
+.saber-mais a {
+    color: wheat;
+}
+
+.saber-mais a:hover {
+    font-size: 25px;
+    color: yellow;
+}
+
+#feiticos-e-hab h1 {
+    margin-left: 20px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 100px;
+    color: rgb(132, 64, 163);
+}
+
+.p-fei-e-hab {
+    margin-left: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(212, 37, 174);
+    text-align: left;
+    font-size: 25px;
+}
+
+.h-fei-e-hab {
+    margin-left: 20px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: left;
+    font-size: 40px;
+    padding-top: 100px;
+    color: rgb(132, 64, 163);
+}
+
+#feiticos-e-hab img {
+    border: 2px inset rgb(3, 63, 243);
+    border-radius: 80px 20px 80px 20px;
+    float: right;
+    margin-right: 20px;
+}
+
+#feiticos-e-hab img:hover {
+    border: inset rgb(92, 218, 8) 5px;
+    border-radius: 20px 80px 20px 80px;
+    float: right;
+    margin-right: 20px;
+}
+
+#p-fei-e-hab {
+    margin-left: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(212, 37, 174);
+    text-align: left;
+    font-size: 25px;
+}
+
+#saber-mais-fei {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(164, 115, 187);
+    text-align: left;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+#saber-mais-fei a {
+    color: wheat;
+}
+
+#saber-mais-fei a:hover {
+    font-size: 20px;
+    color: yellow;
+}
+
+#glossario h1 {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    color: rgb(132, 64, 163);
+}
+
+#glossario h2 {
+    margin-bottom: 0;
+    margin-left: 20px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: left;
+    font-size: 40px;
+    padding-top: 100px;
+    color: rgb(132, 64, 163);
+}
+
+.h-glossario {
+    margin-bottom: 0;
+    margin-left: 20px;
+    font-family: 'Work Sans', sans-serif;
+    text-align: left;
+    font-size: 40px;
+    padding-top: 40px;
+    color: rgb(132, 64, 163);
+}
+
+.p-glossario {
+    margin-left: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(212, 37, 174);
+    text-align: left;
+    font-size: 25px;
+}
+
+#seta {
+    display: inline-block;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background: rgb(131, 144, 182);
+    font-size: 30px;
+    border-radius: 10px;
+    border: 4px inset black;
+}
+
+#fim p {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(212, 37, 174);
+    text-align: left;
+    font-size: 40px;
+}
+
+#fim a:hover {
+    color: black;
+}
+
+@media screen and (max-width: 922px) {
+  img,iframe {
+    mas-width: 600px;
+  }
+}
+
+@media screen and (max-width: 821px) {
+  img, iframe {
+    max-width: 480px;
+  }
+}
+
+@media screen and (max-width: 691px) {
+  img, iframe {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 554px) {
+  img, iframe {
+    max-width: 220px;
+    max-height: 150px;
+  }
+}
+
+@media screen and (max-width: 511px) {
+  img, iframe, #oque-e h1 {
+    max-width: 180px;
+    max-height: 100px;
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  img, iframe, .p-posicoes, .h-posicoes {
+    max-width: 120px;
+    max-height: 100px;
+    font-size: 10px;
+  }
+}
+
+
+

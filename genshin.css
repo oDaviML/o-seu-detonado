@@ -1,0 +1,206 @@
+html {
+  background-image: url(imgs/genshin/fundo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body{
+    margin: 10%;
+}
+
+nav {
+  box-sizing: border-box;
+  display: flex;
+  background-color: #02004a;
+  box-shadow: 0px 17px 50px 18px rgba(0,0,0,0.47);
+  justify-content: center;
+  padding: 0%;
+  margin-bottom: 2%;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  animation: deslizaremb 2s cubic-bezier(0.230, 1.000, 0.320, 1.000);
+  z-index: 9;
+}
+
+@keyframes deslizaremb {
+  0% {
+    transform: translateY(-1000px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  font-family: 'Azeret Mono', monospace;
+  border-bottom: 3px solid transparent;
+  font-size: 20px;
+  margin: 0 2em;
+}
+
+
+
+@media screen and (max-width: 610px) {
+  nav li {
+    margin: 0 1em;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  nav li {
+    margin: 0 0.25em;
+  }
+}
+
+@media screen and (max-width: 464px) {
+  nav li {
+    margin: 0 0em;
+    padding-left: 0;
+  }
+}
+
+
+#logo {
+  width: 160px;
+
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 2px 2px black;
+}
+
+main {
+  margin-top: 150px;
+  animation: fadeIn 3s ease-in-out;
+}
+
+@keyframes fadeIn 
+{
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#links {
+  padding-left: 30px;
+}
+
+
+
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 2px 2px black;
+}
+
+h2{
+  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+h3{
+  text-align: center;
+}
+
+#oque-somos {
+  text-align: center;
+  font-size: 30px;
+}
+
+.chars {
+  border: inset 2px #807098;
+  padding-top: 20px;
+  margin-right: 30px;
+  background-color: rgba(0, 0, 0, 0.705);
+  border-radius: 22px;
+  margin-bottom: 12px;
+  box-shadow: 0px 7px 38px 5px #000000;
+  
+}
+
+.chars:hover {
+  transform: scale(1.1);
+}
+
+.elementos{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+
+div{
+  margin: 7%;
+}
+
+.paginas {
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 40px;
+  font-family: 'Bebas Neue', cursive;
+  color: #86d8e3;
+  font-size: 20px;
+}
+
+.paginas:hover {
+  color: #86d8e3;
+  border-bottom: 5px solid #86d8e3;
+  background-color: rgba(0, 0, 255, 0.13);
+}
+
+
+table, td, th {
+    border: 1px solid white;
+  }
+
+#tabela{
+    background-color: #000000;
+    text-align: center;
+    width:100%;
+    height:100%;
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 8px;
+}
+section{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+article {
+  display: block;
+  box-sizing: border-box;
+  width: 20%;
+  padding: 0.75em;
+  border-radius: 0.5em;
+  background-color: black;
+  margin: 1%;
+}
+
+article img {
+  float: left;
+  width: 50%;
+  height: auto;
+  margin-right: 1em;
+}
+
+section :hover{
+  transform: scale(1.1);
+}

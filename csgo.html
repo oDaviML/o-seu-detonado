@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="authors" content="Davi Martins">
+    <title>O Seu Detonado - CS:GO</title>
+    <link rel="stylesheet" href="stylecs.css">
+    <link rel="icon" href="imgs/icone.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300&family=Urbanist&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+</head>
+
+<body>
+    <nav id="#topo">
+    <img id="logo" src="imgs/logo.png" alt="">
+        <ul class="linksite">
+            <li><a class="paginas" href="index.html">Inicio</a></li>
+            <li><a class="paginas" href="creditos.html">Créditos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="apresentacao">
+            <p>Uma vez um elefante cabeçudo muito sábio me disse:</p>
+            <p>“O CS pode ser um pouco duro as vezes"</p>
+            <p>-Gaules</p>
+            <p>Mas aqui, para a alegria do brasileirinho você verá várias dicas e segredos gigatonicos para se tornar um jogador minimamente bom.</p>
+        </section>
+
+        <section class="principal" id="patentes">
+            <h1>Sistema de Patentes</h1>
+            <img onmouseover="mouseenter()" class="tocar" id="imgpatentes" src="imgs/patentes.png">
+            <p>O sistema de patentes do CS não nos mostra se estamos perto ou não de subir de patente,
+                <del>algo que deveria ser o básico</del>, portanto há diversas lendas de qual seria o método mais rápido de “upar”. Porem aqui, em um site completamente desconhecido e baseado em nada, você definitivamente irá descobrir o melhor método.
+                <del>ou não</del>
+            </p>
+
+            <p>Na prática se você ganhar diversas partidas seguidas estando em uma posição alta você upara bem rápido, porém, não há nenhum profissional aqui. Então, o método mais eficaz é simplesmente jogar pouco. Testado por mim mesmo, só em fevereiro
+                eu fui do ouro 1 para ak 1, jogando 2 partidas a cada 2 dias. Teste esse método e prove que não estou maluco. <del>Mas se você não ganhar nenhuma e 
+                ficar em último em todas não jeito</del>.
+            </p>
+        </section>
+        <section class=" principal" id="utilitarios">
+            <h1>Utilitários</h1>
+            <p>A mecânica mais importante do jogo. Pode colocar o melhor jogador do mundo contra um nerdola das smokes, que o nerdola irá ganhar <del>ou não</del>.
+            </p>
+            <p>E temos aqui smokes essenciais para a mirage, um dos mapas mais jogados.</p>
+            <iframe onmouseover="mouseenter()" class="tocar" width="560" height="315" src="https://www.youtube.com/embed/-jqZHOsJUXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <p>E aqui as smokes mais nerdolas que você irá ver na sua vida.</p>
+
+            <iframe onmouseover="mouseenter()" class="tocar" width="560" height="315" src="https://www.youtube.com/embed/JnbrOL0KJcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section class="principal" id="granada">
+            <h1>Granada Trivelada</h1>
+            <p>E como último ensinamento temos aqui a granada trivelada, que não é apenas uma jogada plástica, ela é muito útil por exemplo para conseguir cegar inimigos sem se expor.
+            </p>
+            <iframe onmouseover="mouseenter()" class="tocar" id="trivelada" width="560" height="315" src="https://www.youtube.com/embed/ArKGQGLrYGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+        <audio id="botao" preload="auto">  
+            <source src="audio/buttonclick.mp3">
+        </audio>
+    </main>
+  <script>
+        var x = document.getElementById("botao");
+        var audio = document.getElementById("botao");
+        audio.volume = 0.3;
+
+        function mouseenter() {
+            x.play();
+        }
+  </script>
+</body>
+
+</html>
